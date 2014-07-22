@@ -200,17 +200,17 @@
 
 
     // SMALL IMAGE
-//    NSData *fileData = UIImagePNGRepresentation([UIImage imageNamed:@"3.PNG"]);
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"3" ofType:@"PNG"];
-//    NSLog(@"SMALL File Size : %@ - %lu - %@", [self fileSizeFromPath:path],  (unsigned long)fileData.length , path);
-//    return fileData;
+    NSData *fileData = UIImagePNGRepresentation([UIImage imageNamed:@"3.PNG"]);
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"3" ofType:@"PNG"];
+    NSLog(@"SMALL File Size : %@ - %lu - %@", [self fileSizeFromPath:path],  (unsigned long)fileData.length , path);
+    return fileData;
 
     
     // LARGE FILE
-    NSData *fileData = UIImageJPEGRepresentation([UIImage imageNamed:@"4.jpg"], 1.0f);
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"4" ofType:@"jpg"];
-    NSLog(@"LARGE File Size : %@ - %lu - %@", [self fileSizeFromPath:path],  (unsigned long)fileData.length , path);
-    return fileData;
+//    NSData *fileData = UIImageJPEGRepresentation([UIImage imageNamed:@"4.jpg"], 1.0f);
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"4" ofType:@"jpg"];
+//    NSLog(@"LARGE File Size : %@ - %lu - %@", [self fileSizeFromPath:path],  (unsigned long)fileData.length , path);
+//    return fileData;
 }
 
 

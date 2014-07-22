@@ -82,9 +82,9 @@
         
         
         // 2. It didn't work for large image file, tried with 18MB.
-//        NSURLConnection *con = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:NO];
-//        [con setDelegateQueue:[NSOperationQueue currentQueue]];
-//        [con start];
+        NSURLConnection *con = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:NO];
+        [con setDelegateQueue:[NSOperationQueue currentQueue]];
+        [con start];
 
         
         // 3. It didn't work for large image file, tried with 18MB.
