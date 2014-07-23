@@ -8,14 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D0874D08197EDEF400E26119 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0874CFD197EDEF400E26119 /* 1.jpg */; };
-		D0874D09197EDEF400E26119 /* 2.TIF in Resources */ = {isa = PBXBuildFile; fileRef = D0874CFE197EDEF400E26119 /* 2.TIF */; };
 		D0874D0A197EDEF400E26119 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D0874CFF197EDEF400E26119 /* 3.PNG */; };
-		D0874D0B197EDEF400E26119 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0874D00197EDEF400E26119 /* 4.jpg */; };
-		D0874D0C197EDEF400E26119 /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0874D01197EDEF400E26119 /* 5.txt */; };
-		D0874D0D197EDEF400E26119 /* 6.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0874D02197EDEF400E26119 /* 6.rtf */; };
-		D0874D0E197EDEF400E26119 /* 7.caf in Resources */ = {isa = PBXBuildFile; fileRef = D0874D03197EDEF400E26119 /* 7.caf */; };
-		D0874D0F197EDEF400E26119 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0874D04197EDEF400E26119 /* 8.wav */; };
-		D0874D10197EDEF400E26119 /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0874D05197EDEF400E26119 /* 9.txt */; };
 		D0874D11197EDEF400E26119 /* ZKRequestCall.m in Sources */ = {isa = PBXBuildFile; fileRef = D0874D07197EDEF400E26119 /* ZKRequestCall.m */; };
 		D0CD22C31945FD3300AB4CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD22C21945FD3300AB4CB6 /* Foundation.framework */; };
 		D0CD22C51945FD3300AB4CB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD22C41945FD3300AB4CB6 /* CoreGraphics.framework */; };
@@ -45,14 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D0874CFD197EDEF400E26119 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		D0874CFE197EDEF400E26119 /* 2.TIF */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2.TIF; sourceTree = "<group>"; };
 		D0874CFF197EDEF400E26119 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
-		D0874D00197EDEF400E26119 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		D0874D01197EDEF400E26119 /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
-		D0874D02197EDEF400E26119 /* 6.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 6.rtf; sourceTree = "<group>"; };
-		D0874D03197EDEF400E26119 /* 7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.caf; sourceTree = "<group>"; };
-		D0874D04197EDEF400E26119 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
-		D0874D05197EDEF400E26119 /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
 		D0874D06197EDEF400E26119 /* ZKRequestCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKRequestCall.h; sourceTree = "<group>"; };
 		D0874D07197EDEF400E26119 /* ZKRequestCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKRequestCall.m; sourceTree = "<group>"; };
 		D0CD22BF1945FD3300AB4CB6 /* ZKProxyServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKProxyServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,14 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D0874CFD197EDEF400E26119 /* 1.jpg */,
-				D0874CFE197EDEF400E26119 /* 2.TIF */,
 				D0874CFF197EDEF400E26119 /* 3.PNG */,
-				D0874D00197EDEF400E26119 /* 4.jpg */,
-				D0874D01197EDEF400E26119 /* 5.txt */,
-				D0874D02197EDEF400E26119 /* 6.rtf */,
-				D0874D03197EDEF400E26119 /* 7.caf */,
-				D0874D04197EDEF400E26119 /* 8.wav */,
-				D0874D05197EDEF400E26119 /* 9.txt */,
 			);
 			path = TestResource;
 			sourceTree = "<group>";
@@ -269,15 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0874D10197EDEF400E26119 /* 9.txt in Resources */,
-				D0874D0C197EDEF400E26119 /* 5.txt in Resources */,
-				D0874D0F197EDEF400E26119 /* 8.wav in Resources */,
-				D0874D0B197EDEF400E26119 /* 4.jpg in Resources */,
-				D0874D09197EDEF400E26119 /* 2.TIF in Resources */,
-				D0874D0E197EDEF400E26119 /* 7.caf in Resources */,
 				D0874D08197EDEF400E26119 /* 1.jpg in Resources */,
 				D0CD22CD1945FD3300AB4CB6 /* InfoPlist.strings in Resources */,
-				D0874D0D197EDEF400E26119 /* 6.rtf in Resources */,
 				D0874D0A197EDEF400E26119 /* 3.PNG in Resources */,
 				D0CD22D51945FD3300AB4CB6 /* Images.xcassets in Resources */,
 			);
